@@ -36,8 +36,8 @@
         if (code.length > 0) {
           document.write('Your access token is: '+code);
         }
-      document.write('Your access token is: '+code);
-      gith</script>
+
+      </script>
 
       </center>
 
