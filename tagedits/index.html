@@ -29,11 +29,15 @@
                   var url = location.href
                   var index = url.search(/access_token=/g)
                   var access_token = url.substring(index+13,index+37)
+                  document.getElementById("copy-box").style.display = 'none';
+                  document.getElementById("token-box").style.display='none';
                   if (index > 18) {
                     document.getElementById("token-description").innerHTML = "Your access token is:<br>";
                     document.getElementById("token-box").value = access_token;
+                    document.getElementById("copy-box").style.display = 'block';
+                    document.getElementById("token-box").style.display='block';
+                    document.getElementById("token-box").select();
                   }
-                  document.getElementById("token-box").select();
                 }
 
 
@@ -45,7 +49,7 @@
 
             <input id="token-box" type="text" name="token">
 
-            <div class="token-copy pulse">
+            <div id="copy-box" class="token-copy pulse">
               Copy with Ctrl+C
             </div>
 
