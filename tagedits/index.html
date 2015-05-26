@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html5>
 <html lang="en-us">
   <head>
     <meta charset="UTF-8">
@@ -18,28 +18,48 @@
 
     <section class="main-content">
 
-      <h3><center>Code is under active development. Will be here soon.</center></h3>
 
-      <h2><center>Content coming soon.</center></h2>
+      <!--<h3><center>Code is under active development. Will be here soon.</center></h3>
+
+      <h2><center>Content coming soon.</center></h2>-->
+     
+      <section class="access-token">
+          <center>
+            <p id="token">
+
+              
+	            <script>
+
+                window.onload = function() {
+                  var url = location.href
+                  var index = url.search(/access_token=/g)
+                  var access_token = url.substring(index+13,index+37)
+                  if (index > 18) {
+                    document.getElementById("token-description").innerHTML = "Your access token is:<br>";
+                    document.getElementById("token-box").value = access_token;
+                  }
+                  document.getElementById("token-box").select();
+                }
+
+
+              </script>
+
+              <p id="token-description" class="token-title" value="hello">
+              </p>
+            </p>
+
+            <input id="token-box" type="text" name="token" value="lol">
+
+            <div class="token-copy pulse">
+              Copy with Ctrl+C
+            </div>
+
+          </center>
+      </section>
+
+    
+
       
-      <center>
-
-	    <script>
-	      function getParameterByName(name) {
-          name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
-          var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
-          results = regex.exec(location.search);
-        return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
-        }
-
-        var code = getParameterByName('#access_token');
-        if (code.length > 0) {
-          document.write('Your access token is: '+code);
-        }
-
-      </script>
-
-      </center>
 
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/jasonlong/cayman-theme">Cayman</a> is maintained by <a href="https://github.com/jasonlong">jasonlong</a>.</span>
