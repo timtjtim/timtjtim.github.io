@@ -35,9 +35,8 @@
         var code = getParameterByName('access_token');
         if (code.length > 0) {
           document.write('Your access token is: '+code);
-        }
-
-      </script>
+        }		
+	    </script>
 
       </center>
 
