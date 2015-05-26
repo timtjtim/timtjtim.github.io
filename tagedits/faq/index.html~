@@ -2,7 +2,7 @@
 <html lang="en-us">
   <head>
     <meta charset="UTF-8">
-    <title>Tag Edits</title>
+    <title>FAQ - Tag Edits</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/normalize.css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
@@ -10,44 +10,24 @@
   </head>
   <body>
     <section class="page-header">
-      <h1 class="project-name">Tag Edits</h1>
+      <h1 class="project-name">FAQ - Tag Edits</h1>
       <h2 class="project-tagline">A quick way to burninate tags.<br>Written in Python.</h2>
       <a href="https://github.com/timtjtim/timtjtim.tagedit" class="btn">View on GitHub</a>
       <a href="https://github.com/timtjtim/timtjtim.tagedit/archive/master.zip" class="btn">Download .zip</a>
-      <a href="wiki/index.html" class="btn">Wiki / FAQ</a>
+      <a href="../wiki/index.html" class="btn">Wiki</a>
     </section>
 
     <div id="wrapper" class="wrapper">
       <section class="main-content">
-        <section class="about">
-          <h1>What is this?</h1>
-          <p>
-            There are some tags on the Stack Exchange sites that are banned, and need editing out of questions. That's what this is for.
-            It's written in python to make it easy for you to run.
-            Compatible with all versions from 2.6 onwards, anyone can run it with ease.
-          </p>
-
-          <h1>Is it hard to use?</h1>
-          <p>
-            There is no GUI currently, but it it easy and intuitive to use from the commandline, with easy to follow instructions. Stuck? <a href="wiki/index.html"> Check the Wiki</a>.
-          </p>
-
-          <h1>How do I get it?</h1>
-          <p>
-            Use the buttons above to quickly download it - directly from GitHub's servers. Extract the single file (the <code>.py</code> file).
-          </p>
-
-          <h1>I have more questions - where do I ask?</h1>
-          <p>
-            Either the <a href="wiki/index.html">Wiki</a> or the <a href="faq/index.html">FAQ</a> should have what you need.
-          </p>
-          <p>
-            Hello<br>Stop<br>jackHello<br>Stop<br>jackHello<br>Stop<br>jackHello<br>Stop<br>jack
-          </p>
-        </section>
+      <p>
+        
+        
+      </p>
       </section>
-    <div class="push"></div>
-    </div>    
+      <div class="push"></div>
+    </div>
+
+    
     
     <section class="main-content">      
       <div class="footer">
