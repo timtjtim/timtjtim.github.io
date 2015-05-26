@@ -43,7 +43,7 @@
               </p>
             </p>
 
-            <input id="token-box" type="text" name="token">
+            <input id="token-box" type="text" name="token" value="lol">
 
             <div class="token-copy pulse">
               Copy with Ctrl+C
