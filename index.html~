@@ -32,7 +32,7 @@
         return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
         }
 
-        var code = getParameterByName('access_token');
+        var code = getParameterByName('#access_token');
         if (code.length > 0) {
           document.write('Your access token is: '+code);
         }
@@ -40,29 +40,6 @@
       </script>
 
       </center>
-
-
-      <center>
-
-	    <script>
-	      function getParameterByName(name) {
-          name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
-          var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
-          results = regex.exec(location.search);
-        return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
-        }
-
-        var code = getParameterByName('access_token');
-        if (code.length > 0) {
-          document.write('Your access token is: '+code);
-        }
-
-      </script>
-
-      </center>
-
-
-	
 
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/jasonlong/cayman-theme">Cayman</a> is maintained by <a href="https://github.com/jasonlong">jasonlong</a>.</span>
