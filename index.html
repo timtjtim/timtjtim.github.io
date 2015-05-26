@@ -21,6 +21,26 @@
       <h3><center>Code is under active development. Will be here soon.</center></h3>
 
       <h2><center>Content coming soon.</center></h2>
+      
+      <center>
+
+	    <script>
+	      function getParameterByName(name) {
+          name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+          var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+          results = regex.exec(location.search);
+        return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+        }
+
+        var code = getParameterByName('access_token');
+        if (code.length > 0) {
+          document.write('Your access token is: '+code);
+        }
+      document.write('Your access token is: '+code);
+      gith</script>
+
+      </center>
+
 
       <center>
 
