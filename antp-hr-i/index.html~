@@ -24,7 +24,7 @@
   <body>
 
 <div id="outerdiv">
-    <iframe src="https://hr-intranet.hrsfc.ac.uk/" id="inneriframe" scrolling="yes"></iframe>
+    <iframe src="https://hr-intranet.hrsfc.ac.uk/" id="inneriframe" scrolling="no"></iframe>
 </div>
 
 
